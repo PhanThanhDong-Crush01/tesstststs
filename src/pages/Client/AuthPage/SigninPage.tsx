@@ -431,10 +431,10 @@ const SigninPage = () => {
                 localStorage.setItem('user', user)
                 localStorage.setItem('userID', response?.user?._id)
                 if (response?.user?.role !== 'member') {
-                    window.location.href = '/admin/bill'
+                    window.location.href = '/'
                 }
                 if (response?.user?.role === 'member') {
-                    navigate(`/updateProfile`)
+                    navigate(`/products`)
                 }
             }
         } catch (error: any) {
