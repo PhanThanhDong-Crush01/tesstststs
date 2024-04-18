@@ -1,0 +1,6 @@
+.footer_an {
+    margin-top: 50%;
+    opacity: 0; /* Đặt độ trong suốt */
+    left: 0;
+    z-index: -1; /* Đảm bảo footer ở dưới cùng */
+}
